@@ -103,7 +103,7 @@
   ],
   "post-processors": [
     {
-      "output": "/tmp/packer/builds/{{.Provider}}/packer-sl-6.5.box",
+      "output": "/tmp/packer/builds/{{.Provider}}/packer-sl-6.5-{{isotime \"20060102\"}}.box",
       "type": "vagrant"
     }
   ],
